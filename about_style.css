@@ -1,8 +1,13 @@
-.head
-{
-    height:auto;
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100px;
     width: 100vw;
-    display: grid;
-    align-items: center;
-
+    display: flex;
+    justify-content: center;
+  }
+.head p{
+    font-size: 6em;
 }
