@@ -1,8 +1,45 @@
-.head
-{
-    height:auto;
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100px;
     width: 100vw;
-    display: grid;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+.head p{
+    font-size: 6em;
+}
+.block1{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    
+}
+.block1 div:nth-child(1)
+{
+    height: auto;
+    width: 40%;
+}
+.block1-1{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.block1-1 div:nth-child(1)
+{
+    height: auto;
+    width: fit-content;
+    font-size: 4em;
+font-weight: bold;
+}
+.block1-1 div:nth-child(2)
+{
+    height: auto;
+    width: fit-content;
+    font-size: 2em;
 
 }
