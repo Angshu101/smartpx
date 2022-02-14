@@ -33,12 +33,21 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .button{
-    padding: 13px;
-    padding-left: 1210px;
-}
-.btn{
     display: flex;
     justify-content: center;
+    padding: 13px;
+    padding-left: 1120px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.btn{
+    margin-right: 15px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
 }
 .container{
     display: flex;
