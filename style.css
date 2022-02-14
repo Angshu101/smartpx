@@ -4,15 +4,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(231, 224, 224);
+}
 .navbar{
  background-color:blueviolet;
- height: 400px;
-  
+ height: 700px;
 }
 .navbar nav ul{
     display: flex;
 }
-.navbar nav ul li {
+.navbar nav ul li{
     list-style: none;
     margin: 15px 0;
     padding: 0 20px ;
@@ -29,32 +31,51 @@
 .logo{
     display: flex;
     justify-content: center;
-    margin: -40px;
+    margin-top: -40px;
     font-family: 'Ubuntu', sans-serif;
 }
 .button{
     display: flex;
     justify-content: center;
+    margin-top: -40px;
     padding: 13px;
     padding-left: 1120px;
 }
 .btn:hover{
     background-color: blueviolet;
     color: black;
+    cursor: pointer;
 }
 .btn{
+    margin-right: 5px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btnsec{
     margin-right: 15px;
     padding: 3px 6px;
     background-color: black;
     color: blueviolet;
     border: 2px solid;
+    border-radius: 8px;
 }
 .container{
     display: flex;
     justify-content: center;
     padding: 110px ;
     font-family: 'Ubuntu', sans-serif;
-    /* background-image: url(https://images.unsplash.com/photo-1557680784-6db47c6f56ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80); */
+}
+.image{
+    display: flex;
+    justify-content: center;
 }
 .topic h1{
     display: flex;
@@ -62,6 +83,6 @@
     font-size: 75px;
 }
 .topic h2{
-        display: flex;
-        justify-content: center
+    display: flex;
+    justify-content: center
 }
