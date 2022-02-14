@@ -73,10 +73,6 @@ body{
     padding: 110px ;
     font-family: 'Ubuntu', sans-serif;
 }
-.image{
-    display: flex;
-    justify-content: center;
-}
 .topic h1{
     display: flex;
     justify-content: center;
@@ -85,4 +81,23 @@ body{
 .topic h2{
     display: flex;
     justify-content: center
+}
+.mid{
+    background-color:rgb(231, 224, 224) ;
+    height: 200px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    color:blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
