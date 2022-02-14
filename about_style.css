@@ -1,5 +1,8 @@
 .head
 {
     height:auto;
+    width: 100vw;
+    display: grid;
+    align-items: center;
 
 }
