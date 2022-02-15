@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -69,12 +71,15 @@
 }
 .my-1{
     margin: 0 40px;
+    font-family: 'Kanit', sans-serif;
 }
 .my-2{
     margin: 20px 0;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .card{
     margin: auto;
@@ -87,5 +92,19 @@
     margin: 0 40px;
 }
 .lines{
-    margin: 0 73px;
+    margin: 0 57px;
+}
+.prodcontainer{
+    height: 1400px;
+}
+footer{
+    background-color: black;
+    color:blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
