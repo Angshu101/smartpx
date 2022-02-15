@@ -78,36 +78,36 @@
     font-size: 6em;
 }
 .block1{
-    height: 654px;
+    height: 540px;
     width: 100vw;
     display: flex;
-    
+    padding-top: 3%;
+}
+.block1 img{
+    min-width: 408px;
 }
 .block1>div:nth-child(1)
 {
     height: 100%;
     width: 45%;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-/* .block1>div:nth-child(1)>div
-{
-    height: 50%;
-    width: 90%;
-    background-color: blueviolet;
-
-} */
 .block1-1{
     height: 100%;
     width: 54%;
+    display: flex;
+    align-items: center;
 }
 .block1-1-1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 11%; 
-    width: 85%;
+    max-width: 85%;
     height: 70%;
+    min-width: 500px;
+    overflow: hidden;
 }
 .block1-1-1 div:nth-child(1)
 {
@@ -137,28 +137,38 @@ font-weight: bold;
     color: white;
 }
 .block2{
-    height: 654px;
+    height: 540px;
     width: 100vw;
     display: flex;
     flex-direction: row-reverse;
     
 }
+.block2 img{
+    min-width: 408px;
+}
 .block2>div:nth-child(1)
 {
     height: 100%;
     width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .block2-1{
     height: 100%;
-    width: 48%;
+    width: 54%;
+    display: flex;
+    align-items: center;
 }
 .block2-1-1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 11%; 
-    width: 85%;
+    max-width: 85%;
     height: 70%;
+    min-width: 500px;
+    overflow: hidden;
+    padding-left: 21%;
 }
 .block2-1-1 div:nth-child(1)
 {
@@ -189,27 +199,36 @@ font-weight: bold;
     
 }
 .block3{
-    height: 654px;
+    height: 540px;
     width: 100vw;
     display: flex;
-    
+    padding-bottom: 3%;
+}
+.block3 img{
+    min-width: 408px;
 }
 .block3>div:nth-child(1)
 {
     height: 100%;
     width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .block3-1{
     height: 100%;
     width: 48%;
+    display: flex;
+    align-items: center;
 }
 .block3-1-1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 11%; 
-    width: 85%;
+    max-width: 85%;
     height: 70%;
+    min-width: 500px;
+    overflow: hidden;
 }
 .block3-1-1 div:nth-child(1)
 {
