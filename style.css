@@ -69,8 +69,9 @@ body{
     border-radius: 8px;
 }
 .line{
+    height: 2px;
     background-color: black;
-    
+
 }
 .container{
     display: flex;
@@ -143,7 +144,7 @@ footer{
 
 #emailHelp{
     font-size: 8px;
-    color: black;
+    color: white;
     margin: 0 5px;
 }
 
