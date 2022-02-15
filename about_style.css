@@ -12,34 +12,159 @@
     font-size: 6em;
 }
 .block1{
-    height: auto;
+    height: 654px;
     width: 100vw;
     display: flex;
     
 }
-.block1 div:nth-child(1)
+.block1>div:nth-child(1)
 {
-    height: auto;
-    width: 40%;
+    height: 100%;
+    width: 45%;
+    /* display: flex;
+    flex-direction: column; */
 }
+/* .block1>div:nth-child(1)>div
+{
+    height: 50%;
+    width: 90%;
+    background-color: blueviolet;
+
+} */
 .block1-1{
-    height: auto;
-    width: 60%;
+    height: 100%;
+    width: 54%;
+}
+.block1-1-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content: space-evenly;
+    padding-top: 11%; 
+    width: 85%;
+    height: 70%;
 }
-.block1-1 div:nth-child(1)
+.block1-1-1 div:nth-child(1)
 {
     height: auto;
-    width: fit-content;
-    font-size: 4em;
+    width: auto;
+    font-size: 210%;
 font-weight: bold;
 }
-.block1-1 div:nth-child(2)
+.block1-1-1 div:nth-child(2)
 {
     height: auto;
-    width: fit-content;
-    font-size: 2em;
+    width: auto;
+    font-size: 120%;
 
+}
+.button1
+{
+    height: 50px;
+    width: 170px;
+}
+.button1 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: blueviolet;
+}
+.block2{
+    height: 654px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.block2>div:nth-child(1)
+{
+    height: 100%;
+    width: 45%;
+}
+.block2-1{
+    height: 100%;
+    width: 48%;
+}
+.block2-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 11%; 
+    width: 85%;
+    height: 70%;
+}
+.block2-1-1 div:nth-child(1)
+{
+    height: auto;
+    width: auto;
+    font-size: 210%;
+font-weight: bold;
+}
+.block2-1-1 div:nth-child(2)
+{
+    height: auto;
+    width: auto;
+    font-size: 120%;
+
+}
+.button2
+{
+    height: 50px;
+    width: 170px;
+}
+.button2 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.block3{
+    height: 654px;
+    width: 100vw;
+    display: flex;
+    
+}
+.block3>div:nth-child(1)
+{
+    height: 100%;
+    width: 45%;
+}
+.block3-1{
+    height: 100%;
+    width: 48%;
+}
+.block3-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 11%; 
+    width: 85%;
+    height: 70%;
+}
+.block3-1-1 div:nth-child(1)
+{
+    height: auto;
+    width: auto;
+    font-size: 210%;
+font-weight: bold;
+}
+.block3-1-1 div:nth-child(2)
+{
+    height: auto;
+    width: auto;
+    font-size: 120%;
+
+}
+.button3
+{
+    height: 50px;
+    width: 170px;
+}
+.button3 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    
 }
