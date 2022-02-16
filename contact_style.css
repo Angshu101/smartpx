@@ -5,6 +5,85 @@
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 720px)
+{
+    .sidebar
+    {
+        height: 97vh;
+        position: absolute;
+        z-index: 1;
+        display: none; /*--none--*/
+        width: 40vw;
+        left: 0%;
+        top: 3%;
+        background-color: blueviolet;
+    }
+    .sidebar>div{
+        width: inherit;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        top: 8%;
+    }
+    .container1{
+        width: inherit;
+        height: 63%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container1 div{
+        padding: 8%;
+    }
+    .container1 div p{
+        font-size: 300%;
+    }
+    .container2{
+        width: inherit;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container2 div{
+        padding: 8%;
+    }
+    .container2 div button{
+        font-size: 250%;
+    }
+    .icon
+    {
+        width: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .icon span {
+        background-color: black;
+        height: 6%;
+        width: 100%;
+    };
+    .icon:hover span
+    {
+background-color: white;
+    }
+    .icon:onClick div{
+        display: block;
+    }
+    .navbar{
+
+    }
+    .navbar nav ul{
+        display: none;
+        visibility: hidden;
+    }
+    .button{
+        display: none;
+        visibility: hidden;
+    }
+}
 body{
     background-color: rgb(231, 224, 224);
 }
@@ -17,6 +96,9 @@ nav{
 display: flex;
 justify-content: space-evenly;
 }
+/* .icon{
+    display: none;
+} */
 .navbar nav ul{
     display: flex;
 width: 30%;
