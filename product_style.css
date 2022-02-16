@@ -4,11 +4,7 @@
     margin: 0;
     padding: 0;
 }
-header
-{
-height: auto;
-width: auto;
-}
+
 .navbarprod{
     background-color:blueviolet;
     height: 52px;
@@ -100,8 +96,11 @@ width: auto;
     margin: 0 57px;
 }
 
-.prodcontainer{
+/* .prodcontainer{
     height: 3600px;
+} */
+.prodcontainer{
+    min-height: calc(100vh - 52px - 12vh);
 }
 footer{
     background-color: black;
@@ -121,6 +120,6 @@ footer{
 }
 @media screen and (max-width: 1274px){
     footer{
-        
+
     }
 }
