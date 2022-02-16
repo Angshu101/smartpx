@@ -3,6 +3,19 @@
     padding: 0;
     overflow-x: hidden;
 }
+@media screen and (max-width: 720px){
+    .block1>div:nth-child(1)
+    {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+}
+    
+
 .navbarabout{
     background-color:blueviolet;
     height: 52px;
