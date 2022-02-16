@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+header
+{
+height: auto;
+width: auto;
+}
 .navbarprod{
     background-color:blueviolet;
     height: 52px;
@@ -94,8 +99,9 @@
 .lines{
     margin: 0 57px;
 }
+
 .prodcontainer{
-    height: 1400px;
+    height: 3600px;
 }
 footer{
     background-color: black;
