@@ -96,9 +96,9 @@ nav{
 display: flex;
 justify-content: space-evenly;
 }
-/* .icon{
+.icon{
     display: none;
-} */
+}
 .navbar nav ul{
     display: flex;
 width: 30%;
