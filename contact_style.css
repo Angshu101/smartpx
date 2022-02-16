@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 @media screen and (max-width: 720px)
 {
@@ -71,6 +72,7 @@ background-color: white;
     }
     .icon:onClick div{
         display: block;
+        color:yellow;
     }
     .navbar{
 
@@ -96,7 +98,7 @@ nav{
 display: flex;
 justify-content: space-evenly;
 }
-.icon{
+.sidebar{
     display: none;
 }
 .navbar nav ul{

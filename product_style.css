@@ -3,9 +3,90 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(231, 224, 224);
+}
+.navbar{
+ background-color:blueviolet;
+ height: 53px;
+}
+nav{
+    width: 100vw;
+display: flex;
+justify-content: space-evenly;
+}
+.icon{
+    display: none;
+}
+.navbar nav ul{
+    display: flex;
+width: 30%;
+justify-content: space-evenly;
+}
+.navbar nav ul li{
+    list-style: none;
+    margin: 15px 0;
+    padding: 0 20px ;
+}
+.navbar nav ul li a{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.navbar nav ul li a:hover{
+    cursor: pointer;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 19%;
+    align-items: center;
+    padding-right: 10%;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btn{
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 33%;
+    height: 69%;
+}
+.btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btnsec{
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 34%;
+    height: 69%;
+}
+.line{
+    height: 2px;
+    background-color: black;
+    margin: 2px;
+
 }
 
-.navbarprod{
+/* .navbarprod{
     background-color:blueviolet;
     height: 52px;
    }
@@ -69,7 +150,7 @@
     height: 2px;
     background-color: black;
 
-}
+} */
 .my-1{
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
