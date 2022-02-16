@@ -108,3 +108,13 @@ footer{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 1261px) {
+    .line{
+        margin: -14px;
+    }
+}
+@media screen and (max-width: 1274px){
+    footer{
+        
+    }
+}
