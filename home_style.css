@@ -10,10 +10,17 @@ body{
 }
 .navbar{
  background-color:blueviolet;
- height: 700px;
+ height: 53px;
+}
+nav{
+    width: 100vw;
+display: flex;
+justify-content: space-evenly;
 }
 .navbar nav ul{
     display: flex;
+width: 30%;
+justify-content: space-evenly;
 }
 .navbar nav ul li{
     list-style: none;
@@ -32,15 +39,16 @@ body{
 .logo{
     display: flex;
     justify-content: center;
-    margin-top: -40px;
     font-family: 'Ubuntu', sans-serif;
+    width: 19%;
+    align-items: center;
+    padding-right: 10%;
 }
 .button{
     display: flex;
-    justify-content: center;
-    margin-top: -40px;
-    padding: 13px;
-    padding-left: 1120px;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
 }
 .btn:hover{
     background-color: blueviolet;
@@ -48,12 +56,12 @@ body{
     cursor: pointer;
 }
 .btn{
-    margin-right: 5px;
-    padding: 3px 6px;
     background-color: black;
     color: blueviolet;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 8px;
+    width: 33%;
+    height: 69%;
 }
 .btnsec:hover{
     background-color: blueviolet;
@@ -61,12 +69,12 @@ body{
     cursor: pointer;
 }
 .btnsec{
-    margin-right: 15px;
-    padding: 3px 6px;
     background-color: black;
     color: blueviolet;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 8px;
+    width: 34%;
+    height: 69%;
 }
 .line{
     height: 2px;
@@ -116,17 +124,26 @@ footer{
 .img3{
     margin: -15px -50px;
 }
-.contactform{
-    padding:0 34px;
-    padding-top: 10px;
+main{
+    height: 571px;
+    background-color: blueviolet;
+    padding: 0 34px;
+    padding-top: 0px;
+    padding-top: 0px;
     font-family: 'Ubuntu', sans-serif;
+}
+.contactform{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: inherit;
+padding-left: 6%;
 }
 
 .contactform h1{
     /* text-align: center; */
     font-family: 'Open Sans', sans-serif;
-    margin: -35px 0 10px;
-    margin: 30px;
+
 }
 
 .contactform form div{
@@ -155,4 +172,17 @@ footer{
 #form-check input{
     width: 24px;
     margin: 3px 0;
+}
+.btn-sm{
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    height: 39px;
+    width: 101px;
+}
+.btn-sm:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
 }
