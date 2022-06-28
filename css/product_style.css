@@ -1,45 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-body{
+
+body {
     background-color: rgb(231, 224, 224);
 }
-.navbar{
- background-color:blueviolet;
- height: 55px;
+
+.navbar {
+    background-color: blueviolet;
+    height: 55px;
 }
-nav{
+
+nav {
     width: 100vw;
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
-.icon{
+
+.icon {
     display: none;
 }
-.navbar nav ul{
+
+.navbar nav ul {
     display: flex;
-width: 30%;
-justify-content: space-evenly;
+    width: 30%;
+    justify-content: space-evenly;
 }
-.navbar nav ul li{
+
+.navbar nav ul li {
     list-style: none;
     margin: 15px 0;
-    padding: 0 20px ;
+    padding: 0 20px;
 }
-.navbar nav ul li a{
+
+.navbar nav ul li a {
     font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
     color: black;
 }
-.navbar nav ul li a:hover{
+
+.navbar nav ul li a:hover {
     cursor: pointer;
     color: white;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
@@ -47,18 +57,21 @@ justify-content: space-evenly;
     align-items: center;
     padding-right: 10%;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-evenly;
     width: 20%;
     align-items: center;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
 }
-.btn{
+
+.btn {
     background-color: black;
     color: blueviolet;
     border: 3px solid;
@@ -66,12 +79,14 @@ justify-content: space-evenly;
     width: 33%;
     height: 69%;
 }
-.btnsec:hover{
+
+.btnsec:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
 }
-.btnsec{
+
+.btnsec {
     background-color: black;
     color: blueviolet;
     border: 3px solid;
@@ -79,7 +94,8 @@ justify-content: space-evenly;
     width: 34%;
     height: 69%;
 }
-.line{
+
+.line {
     height: 2px;
     background-color: black;
     margin: 2px;
@@ -151,56 +167,62 @@ justify-content: space-evenly;
     background-color: black;
 
 } */
-.my-1{
+.my-1 {
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
 }
-.my-2{
-    margin: 20px 0;
+
+.my-2 {
+    margin: 45px 0;
     font-family: 'Open Sans', sans-serif;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
 }
-.card{
+
+.card {
     margin: auto;
     max-width: 95vw;
 }
-.card-items{
+
+.card-items {
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
     margin: 0 40px;
 }
-.lines{
+
+.lines {
     margin: 0 57px;
 }
 
 /* .prodcontainer{
     height: 3600px;
 } */
-.prodcontainer{
+.prodcontainer {
     min-height: calc(100vh - 52px - 12vh);
 }
-footer{
+
+footer {
     background-color: black;
-    color:blueviolet;
+    color: blueviolet;
     height: 12vh;
     font-family: 'Montserrat', sans-serif;
 }
-.flex-all-center{
+
+.flex-all-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 1261px) {
-    .line{
+    .line {
         margin: -14px;
     }
 }
-@media screen and (max-width: 1274px){
-    footer{
 
-    }
+@media screen and (max-width: 1274px) {
+    
 }
