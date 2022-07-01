@@ -167,6 +167,22 @@ nav {
     background-color: black;
 
 } */
+
+.search {
+    margin: 0px 10px;
+    padding: 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search input {
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+}
+
 .my-1 {
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
@@ -223,6 +239,4 @@ footer {
     }
 }
 
-@media screen and (max-width: 1274px) {
-    
-}
+@media screen and (max-width: 1274px) {}
