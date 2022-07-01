@@ -183,6 +183,17 @@ nav {
     border-radius: 7px;
 }
 
+.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
 .my-1 {
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
