@@ -176,18 +176,27 @@ nav {
     align-content: center;
 }
 
+.search form {
+    display: flex;
+    justify-content: center;
+}
+
 .search input {
     margin-top: 20px;
     font-size: 20px;
     border: 2px solid blueviolet;
     border-radius: 7px;
+    /* background-color: black; */
+    color: blueviolet;
 }
 
 .search button {
     background-color: blueviolet;
     border: none;
     margin-left: -4px;
-    font-size: 2px;
+    font-size: 15px;
+    border: 2px solid #171717;
+    border-radius: 7px;
 }
 
 .my-1 {
