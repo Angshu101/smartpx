@@ -6,6 +6,30 @@
     padding: 0;
     overflow-x: hidden;
 }
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
+}
+/* .btn:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+} */
+.btn a:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.btnsec a:hover{
+    background-color: blueviolet;
+    color: black;
+}
 @media screen and (max-width: 720px)
 {
     .sidebar
@@ -81,6 +105,7 @@ background-color: white;
         display: none;
         visibility: hidden;
     }
+    
     .button{
         display: none;
         visibility: hidden;

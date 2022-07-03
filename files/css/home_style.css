@@ -88,7 +88,7 @@ nav {
     align-items: center;
 }
 
-.btn:hover {
+.btn a:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
@@ -101,9 +101,18 @@ nav {
     border-radius: 8px;
     width: 33%;
     height: 69%;
+    text-decoration: none;
+}
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
 }
 
-.btnsec:hover {
+.btnsec a:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
