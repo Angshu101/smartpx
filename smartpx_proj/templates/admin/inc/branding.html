@@ -1,12 +1,22 @@
 {% load admin_style_tags i18n %}
 {% load static from static %}
-<div id="header-logo">
-    <a class="icon-logo" href="/"><span>Smart PX</span></a>
-</div>
-<h1>{{ site_header|default:_('SmartPX') }}</h1>
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        <img src="{% static 'logo.png' %}" height="200px" class="center" />
+    </a>
+</h1>
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+</style>
+<h1>SmartPX Admin</h1>
 <ul id="site-name" class="toolbar-item toolbar-item-navigation">
     <li>
-        <a class="menu-item" href="">{{ site_header|default:_('Django Administration') }}</a>
+        <a class="menu-item" href="">{{ site_header|default:_('SmartPX Administration') }}</a>
         <ul class="submenu">
             {% if user.is_active and user.is_staff %}
                 {% url 'django-admindocs-docroot' as docsroot %}
