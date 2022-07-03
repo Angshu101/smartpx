@@ -179,7 +179,6 @@ nav {
 .search form {
     display: flex;
     justify-content: center;
-    margin-left: 920px;
 }
 
 .search input {
