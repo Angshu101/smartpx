@@ -79,7 +79,14 @@ nav {
     width: 33%;
     height: 69%;
 }
-
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
+}
 .btnsec:hover {
     background-color: blueviolet;
     color: black;
