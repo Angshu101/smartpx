@@ -28,7 +28,10 @@ body {
     height: 57px;
     position: sticky;
     top: 0;
+<<<<<<< Updated upstream
     cursor: pointer;
+=======
+>>>>>>> Stashed changes
 }
 
 nav {
