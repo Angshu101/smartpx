@@ -14,22 +14,7 @@ text-decoration: none;
     color: blueviolet;
 text-decoration: none;
 }
-/* .btn:hover{
-    background-color: blueviolet;
-    color: black;
-}
-.btnsec:hover{
-    background-color: blueviolet;
-    color: black;
-} */
-/* .btn a:hover{
-    background-color: blueviolet;
-    color: black;
-}
-.btnsec a:hover{
-    background-color: blueviolet;
-    color: black;
-} */
+
 @media screen and (max-width: 720px)
 {
     .sidebar
@@ -159,11 +144,7 @@ justify-content: space-evenly;
     width: 20%;
     align-items: center;
 }
-/* .btn:hover{
-    background-color: blueviolet;
-    color: black;
-    cursor: pointer;
-} */
+
 .btn{
     background-color: black;
     color: blueviolet;
@@ -172,11 +153,7 @@ justify-content: space-evenly;
     width: 33%;
     height: 69%;
 }
-/* .btnsec:hover{
-    background-color: blueviolet;
-    color: black;
-    cursor: pointer;
-} */
+
 .btnsec{
     background-color: black;
     color: blueviolet;

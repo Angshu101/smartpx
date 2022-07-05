@@ -87,11 +87,7 @@ text-decoration: none;
     color: blueviolet;
 text-decoration: none;
 }
-/* .btnsec:hover {
-    background-color: blueviolet;
-    color: black;
-    cursor: pointer;
-} */
+
 
 .btnsec {
     background-color: black;
@@ -109,71 +105,6 @@ text-decoration: none;
 
 }
 
-/* .navbarprod{
-    background-color:blueviolet;
-    height: 52px;
-   }
-   .navbarprod nav ul{
-       display: flex;
-   }
-   .navbarprod nav ul li{
-       list-style: none;
-       margin: 15px 0;
-       padding: 0 20px ;
-   }
-   .navbarprod nav ul li a{
-       font-family: 'Nunito Sans', sans-serif;
-       text-decoration: none;
-       color: black;
-   }
-   .navbarprod nav ul li a:hover{
-       cursor: pointer;
-       color: white;
-   }
-   .logo{
-    display: flex;
-    justify-content: center;
-    margin-top: -40px;
-    font-family: 'Ubuntu', sans-serif;
-}
-.button{
-    display: flex;
-    justify-content: center;
-    margin-top: -40px;
-    padding: 13px;
-    padding-left: 1120px;
-}
-.btn:hover{
-    background-color: blueviolet;
-    color: black;
-    cursor: pointer;
-}
-.btn{
-    margin-right: 5px;
-    padding: 3px 6px;
-    background-color: black;
-    color: blueviolet;
-    border: 2px solid;
-    border-radius: 8px;
-}
-.btnsec:hover{
-    background-color: blueviolet;
-    color: black;
-    cursor: pointer;
-}
-.btnsec{
-    margin-right: 15px;
-    padding: 3px 6px;
-    background-color: black;
-    color: blueviolet;
-    border: 2px solid;
-    border-radius: 8px;
-}
-.line{
-    height: 2px;
-    background-color: black;
-
-} */
 
 .search {
     margin: 0px 10px;
@@ -193,7 +124,6 @@ text-decoration: none;
     font-size: 20px;
     border: 2px solid blueviolet;
     border-radius: 7px;
-    /* background-color: black; */
     color: blueviolet;
 }
 
@@ -236,9 +166,7 @@ text-decoration: none;
     margin: 0 57px;
 }
 
-/* .prodcontainer{
-    height: 3600px;
-} */
+
 .prodcontainer {
     min-height: calc(100vh - 52px - 12vh);
 }
