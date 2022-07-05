@@ -207,7 +207,7 @@ text-decoration: none;
 } */
 .container {
     display: flex;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     justify-content: center;
     padding: 110px;
     font-family: 'Ubuntu', sans-serif;
