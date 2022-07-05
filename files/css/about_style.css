@@ -63,11 +63,11 @@ justify-content: space-evenly;
     width: 20%;
     align-items: center;
 }
-.btn:hover{
+/* .btn:hover{
     background-color: blueviolet;
     color: black;
     cursor: pointer;
-}
+} */
 .btn{
     background-color: black;
     color: blueviolet;
@@ -84,11 +84,11 @@ text-decoration: none;
     color: blueviolet;
 text-decoration: none;
 }
-.btnsec:hover{
+/* .btnsec:hover{
     background-color: blueviolet;
     color: black;
     cursor: pointer;
-}
+} */
 .btnsec{
     background-color: black;
     color: blueviolet;

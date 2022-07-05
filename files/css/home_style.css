@@ -25,22 +25,21 @@ body {
 
 .navbar {
     background-color: blueviolet;
-    height: 57px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     top: 0;
-<<<<<<< Updated upstream
     cursor: pointer;
-=======
->>>>>>> Stashed changes
 }
 
 nav {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    /* position: sticky;
+    top: 0; */
 }
 
 .icon {
@@ -51,7 +50,7 @@ nav {
     display: flex;
     width: 30%;
     justify-content: space-evenly;
-    /* margin-right: 130px; */
+    /* margin-left: 300px; */
 }
 
 .navbar nav ul li {
@@ -75,12 +74,16 @@ nav {
     display: flex;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
-    width: 19%;
+    width: 20%;
     align-items: center;
     padding-right: 10%;
     /* margin-right: 160px; */
 }
 
+.logo img{
+    width: 70px;
+    height: 63px;
+}
 .button {
     display: flex;
     justify-content: space-evenly;
@@ -88,11 +91,11 @@ nav {
     align-items: center;
 }
 
-.btn a:hover {
+/* .btn a:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
-}
+} */
 
 .btn {
     background-color: black;
@@ -112,11 +115,11 @@ text-decoration: none;
 text-decoration: none;
 }
 
-.btnsec a:hover {
+/* .btnsec a:hover {
     background-color: blueviolet;
     color: black;
     cursor: pointer;
-}
+} */
 
 .btnsec {
     background-color: black;
@@ -127,12 +130,12 @@ text-decoration: none;
     height: 69%;
 }
 
-.line {
+/* .line {
     height: 2px;
     background-color: black;
     margin: 2px;
 
-}
+} */
 
 /* body{
     background-color: rgb(231, 224, 224);
@@ -204,7 +207,7 @@ text-decoration: none;
 } */
 .container {
     display: flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     justify-content: center;
     padding: 110px;
     font-family: 'Ubuntu', sans-serif;
