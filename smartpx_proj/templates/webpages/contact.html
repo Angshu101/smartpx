@@ -1,0 +1,80 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{% static 'css/contact_style.css' %}">
+</head>
+
+<body>
+    
+    <header>
+        <div class="navbar">
+            <nav>
+
+                <ul>
+                    <li><a href="/" target="_blank">Home</a></li>
+                    <li><a href="product" target="_blank">Products</a></li>
+                    <li><a href="about" target="_blank">About</a></li>
+                    <li><a href="contact" target="_blank">Contact</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="{% static 'assets/smartpx white.png' %}" alt="" width="70px" height="63px">
+                    
+                </div>
+                <div class="button">
+                    <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
+                    <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                </div>
+
+            </nav>
+        
+        </div>
+
+    </header>
+    <main>
+        <div class="contactform">
+            <h1>Contact us for General Queries</h1>
+            <form>
+                <div class="query">
+                    <label for="clientname" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">
+                    </div>
+                </div>
+                <div class="query">
+                    <label for="clientemail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="clientemail">
+                    <div id="emailHelp" class="form-text">We'll never share your email & phone no with anyone
+                        else.
+                    </div>
+                </div>
+                <div class="query">
+                    <label for="clientphone" class="form-label">Phone</label>
+                    <input type="phone" class="form-control" id="clientphone">
+                </div>
+                <div class="query">
+                    <label for="clientname" class="form-label">Enquiry</label>
+                    <input type="enquiry" class="form-control" id="clientname">
+                    <div id="emailHelp" class="form-text">
+                    </div>
+                </div>
+                <div class="query" id="form-check">
+                    <input type="checkbox" class="form-check-input" id="isclient">
+                    <label class="form-check-label" for="isclient">Wanna work with me in some project</label>
+                </div>
+                <button type="submit" class="btn-sm">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; 2022 all rights reserved smartPx</p>
+    </footer>
+
+</body>
+
+</html>

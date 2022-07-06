@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 720px){
+    .block1>div:nth-child(1)
+    {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+}
+    
+body{
+    background-color: rgb(231, 224, 224);
+}
+.navbar{
+ background-color:blueviolet;
+ height: 65px;
+}
+nav{
+    width: 100vw;
+display: flex;
+justify-content: space-evenly;
+}
+.icon{
+    display: none;
+}
+.navbar nav ul{
+    display: flex;
+width: 30%;
+justify-content: space-evenly;
+}
+.navbar nav ul li{
+    list-style: none;
+    margin: 15px 0;
+    padding: 0 20px ;
+}
+.navbar nav ul li a{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.navbar nav ul li a:hover{
+    cursor: pointer;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 19%;
+    align-items: center;
+    padding-right: 10%;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+/* .btn:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+.btn{
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 33%;
+    height: 69%;
+}
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
+}
+/* .btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+.btnsec{
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 34%;
+    height: 69%;
+}
+.line{
+    height: 2px;
+    background-color: black;
+    margin: 2px;
+
+}
+/* .navbarabout{
+    background-color:blueviolet;
+    height: 52px;
+   }
+   .navbarabout nav ul{
+       display: flex;
+   }
+   .navbarabout nav ul li{
+       list-style: none;
+       margin: 15px 0;
+       padding: 0 20px ;
+   }
+   .navbarabout nav ul li a{
+       font-family: 'Nunito Sans', sans-serif;
+       text-decoration: none;
+       color: black;
+   }
+   .navbarabout nav ul li a:hover{
+       cursor: pointer;
+       color: white;
+   }
+   .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    padding: 13px;
+    padding-left: 1120px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btn{
+    margin-right: 5px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btnsec{
+    margin-right: 15px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.line{
+    height: 2px;
+    background-color: black;
+
+} */
+.head{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+.head p{
+    font-size: 6em;
+}
+.block1{
+    height: 540px;
+    width: 100vw;
+    display: flex;
+    padding-top: 3%;
+}
+.block1 img{
+    min-width: 408px;
+}
+.block1>div:nth-child(1)
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block1-1{
+    height: 100%;
+    width: 54%;
+    display: flex;
+    align-items: center;
+}
+.block1-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 85%;
+    height: 70%;
+    min-width: 500px;
+    overflow: hidden;
+}
+.block1-1-1 div:nth-child(1)
+{
+    height: auto;
+    width: auto;
+    font-size: 210%;
+font-weight: bold;
+}
+.block1-1-1 div:nth-child(2)
+{
+    height: auto;
+    width: auto;
+    font-size: 120%;
+
+}
+.button1
+{
+    height: 50px;
+    width: 170px;
+}
+.button1 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: blueviolet;
+    color: white;
+}
+.block2{
+    height: 540px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.block2 img{
+    min-width: 408px;
+}
+.block2>div:nth-child(1)
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block2-1{
+    height: 100%;
+    width: 54%;
+    display: flex;
+    align-items: center;
+}
+.block2-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 85%;
+    height: 70%;
+    min-width: 500px;
+    overflow: hidden;
+    padding-left: 21%;
+}
+.block2-1-1 div:nth-child(1)
+{
+    height: auto;
+    width: auto;
+    font-size: 210%;
+font-weight: bold;
+}
+.block2-1-1 div:nth-child(2)
+{
+    height: auto;
+    width: auto;
+    font-size: 120%;
+
+}
+.button2
+{
+    height: 50px;
+    width: 170px;
+}
+.button2 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: blueviolet;
+    color: white;
+    
+}
+.block3{
+    height: 540px;
+    width: 100vw;
+    display: flex;
+    padding-bottom: 3%;
+}
+.block3 img{
+    min-width: 408px;
+}
+.block3>div:nth-child(1)
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block3-1{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.block3-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 85%;
+    height: 70%;
+    min-width: 500px;
+    overflow: hidden;
+}
+.block3-1-1 div:nth-child(1)
+{
+    height: auto;
+    width: auto;
+    font-size: 210%;
+font-weight: bold;
+}
+.block3-1-1 div:nth-child(2)
+{
+    height: auto;
+    width: auto;
+    font-size: 120%;
+
+}
+.button3
+{
+    height: 50px;
+    width: 170px;
+}
+.button3 button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: blueviolet;
+    color: white;
+    
+}
+footer{
+    background-color: black;
+    color:blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

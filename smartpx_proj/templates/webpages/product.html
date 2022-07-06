@@ -1,0 +1,148 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="{% static 'css/product_style.css' %}">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <nav>
+<div class="icon">
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+                <ul>
+                    <li><a href="/" target="_blank">Home</a></li>
+                    <li><a href="product" target="_blank">Products</a></li>
+                    <li><a href="about" target="_blank">About</a></li>
+                    <li><a href="contact" target="_blank">Contact</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="{% static 'assets/smartpx white.png' %}" alt="" width="70px" height="63px">
+                    
+                </div>
+                <div class="button">
+                    <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
+                    <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                </div>
+
+            </nav>
+            
+        </div>
+
+    </header>
+    <main>
+        <div class="search">
+            <form">
+                <input type="text" placeholder="Search.." name="search">
+                 <button>
+                    <img src="{% static 'assets/search.png' %}" alt="" width="20px">
+                 </button>
+              </form>
+        </div>
+        <div class="prodcontainer">
+            <div class="card">
+                <h2 class="my-2">Latest Launch</h2>
+                <div class="cards">
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone1.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1 Promax</p>
+                            <p class="text-center my-1">HD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone2.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1 Pro</p>
+                            <p class="text-center my-1">SD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone1.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1</p>
+                            <p class="text-center my-1">Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-2">Best Sellers</h2>
+                <div class="cards">
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone2.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px 3</p>
+                            <p class="text-center my-1">HD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone1.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px 2</p>
+                            <p class="text-center my-1">SD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone2.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px 1</p>
+                            <p class="text-center my-1">Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-2">Hot Deals</h2>
+                <div class="cards">
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone1.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1</p>
+                            <p class="text-center my-1">SD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone2.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1</p>
+                            <p class="text-center my-1">HD Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <img src="{% static 'assets/phone1.png' %}" alt="" width="300px" height="300px">
+                        <div class="lines">
+                            <p class="text-center my-1">Px A1</p>
+                            <p class="text-center my-1">Amoled Display</p>
+                            <p class="text-center my-1">Price-$xxxxx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; 2022 all rights reserved smartPx</p>
+    </footer>
+</body>
+
+</html>

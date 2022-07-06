@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(231, 224, 224);
+}
+
+.navbar {
+    background-color: blueviolet;
+    height: 65px;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+.navbar nav ul li a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 19%;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+
+/* .btn:hover {
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+
+.btn {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 33%;
+    height: 69%;
+}
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
+}
+/* .btnsec:hover {
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+
+.btnsec {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 34%;
+    height: 69%;
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+    margin: 2px;
+
+}
+
+/* .navbarprod{
+    background-color:blueviolet;
+    height: 52px;
+   }
+   .navbarprod nav ul{
+       display: flex;
+   }
+   .navbarprod nav ul li{
+       list-style: none;
+       margin: 15px 0;
+       padding: 0 20px ;
+   }
+   .navbarprod nav ul li a{
+       font-family: 'Nunito Sans', sans-serif;
+       text-decoration: none;
+       color: black;
+   }
+   .navbarprod nav ul li a:hover{
+       cursor: pointer;
+       color: white;
+   }
+   .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    padding: 13px;
+    padding-left: 1120px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btn{
+    margin-right: 5px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+.btnsec{
+    margin-right: 15px;
+    padding: 3px 6px;
+    background-color: black;
+    color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.line{
+    height: 2px;
+    background-color: black;
+
+} */
+
+.search {
+    margin: 0px 10px;
+    padding: 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search form {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+    /* background-color: black; */
+    color: blueviolet;
+}
+
+.search button {
+    background-color: blueviolet;
+    border: none;
+    margin-left: -4px;
+    font-size: 15px;
+    border: 2px solid #171717;
+    border-radius: 7px;
+}
+
+.my-1 {
+    margin: 0 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.my-2 {
+    margin: 45px 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: auto;
+    max-width: 95vw;
+}
+
+.card-items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.lines {
+    margin: 0 57px;
+}
+
+/* .prodcontainer{
+    height: 3600px;
+} */
+.prodcontainer {
+    min-height: calc(100vh - 52px - 12vh);
+}
+
+footer {
+    background-color: black;
+    color: blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1261px) {
+    .line {
+        margin: -14px;
+    }
+}
+
+@media screen and (max-width: 1274px) {}
