@@ -28,7 +28,7 @@ display: flex;
 justify-content: space-evenly;
 }
 .icon{
-    display: none;
+    /* display: none; */
 }
 .navbar nav ul{
     display: flex;
@@ -107,16 +107,29 @@ text-decoration: none;
     width: 500px;
 height: 500px;
 margin: 40px;
+box-shadow: 1px 1px 1px 1px #b3b5b8;
 }
 .logincon{
     display: flex;
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
 
 }
 
+.icon img{
+    width: 200px;
+    height: 200px;
+}
+
 .loginform{
     width: 25%;
+    height: 500px;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 1px 1px 1px 1px #b3b5b8;
 }
 .loginform form div{
     padding: 5px 0;
@@ -128,4 +141,24 @@ align-items: center;
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
+}
+.password{
+    flex-direction: row;
+}
+.password h6{
+    margin-left: 184px;
+    margin-top: 6px;
+  }
+
+footer {
+    background-color: black;
+    color: blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
