@@ -210,6 +210,7 @@ text-decoration: none;
     background-color: blueviolet;
     justify-content: center;
     padding: 110px;
+    max-width: 1270px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -238,6 +239,7 @@ text-decoration: none;
 
 .homecontainer {
     min-height: calc(100vh - 700px - 12vh);
+
 }
 
 footer {
@@ -305,22 +307,4 @@ footer {
     width: 24px;
     margin: 3px 0;
 }
-.header {
-	background-color: var(--secondary);
-	padding: 10px 0;
-	color: #fff;
-	border-bottom: 1px solid #333;
-}
 
-.top-banner {
-	position: relative;
-}
-.top-banner img {
-	height: 380px;
-	width: 100%;
-}
-.home .top-banner .top-container {
-	position: absolute;
-	top: 30%;
-	left: 0;
-}
