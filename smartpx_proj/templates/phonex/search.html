@@ -1,0 +1,65 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search page</title>
+    <link rel="stylesheet" href="{% static 'css/product_style.css' %}">
+</head>
+
+<body>
+    
+    <header>
+        <div class="navbar">
+            <nav>
+
+                <ul>
+                    <li><a href="/" target="_blank">Home</a></li>
+                    <li><a href="product" target="_blank">Products</a></li>
+                    <li><a href="about" target="_blank">About</a></li>
+                    <li><a href="contact" target="_blank">Contact</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="{% static 'assets/smartpx white.png' %}" alt="" width="70px" height="63px">
+                    
+                </div>
+                <div class="button">
+                    <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
+                    <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                </div>
+
+            </nav>
+        
+        </div>
+        <main>
+            <div class="card">
+                <h2 class="my-2">Searched item</h2>
+                <div class="cards">
+                    {% for bs in searc_ph  %}
+                    <div class="card-items">
+                        <a href="{% url 'phone_details' bs.id %}">
+                            <img src="{% static 'assets/phone2.png' %}" alt="" width="300px" height="300px">
+                        </a>
+                        <div class="lines">
+                            <p class="text-center my-1">{{bs.prod_name}}</p>
+                            <p class="text-center my-1">{{bs.disp_name}}</p>
+                            <p class="text-center my-1">{{bs.price}}</p>
+                        </div>
+                        <button type="button" class="button1">Know Details</button>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </main>
+
+    </header>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; 2022 all rights reserved smartPx</p>
+    </footer>
+
+</body>
+
+</html>
