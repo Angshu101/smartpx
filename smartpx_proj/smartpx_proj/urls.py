@@ -21,4 +21,5 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('webpages.urls')),
+    path('phonex/',include('phonex.urls')),
 ]+ static(settings.MEDIA_URL,documentroot=settings.MEDIA_ROOT)

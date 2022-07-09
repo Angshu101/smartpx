@@ -10,6 +10,10 @@
 
 body {
     background-color: rgb(231, 224, 224);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode: normal;
 }
 
 /* .hamburger {
@@ -208,6 +212,7 @@ text-decoration: none;
 .container {
     display: flex;
     background-color: blueviolet;
+    margin-top: 0px;
     justify-content: center;
     padding: 110px;
     max-width: 1270px;
@@ -239,6 +244,7 @@ text-decoration: none;
 
 .homecontainer {
     min-height: calc(100vh - 700px - 12vh);
+    margin-top: -842px;
 
 }
 
