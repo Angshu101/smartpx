@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(183, 120, 241);
+}
+
+
+
+.navbar {
+    background-color: blueviolet;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+.navbar nav ul li a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 20%;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.logo img{
+    width: 70px;
+    height: 63px;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+
+/* .btn a:hover {
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+
+.btn {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 33%;
+    height: 69%;
+    text-decoration: none;
+}
+.btn a{
+    color: blueviolet;
+text-decoration: none;
+}
+.btnsec a{
+    color: blueviolet;
+text-decoration: none;
+}
+
+/* .btnsec a:hover {
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+
+.btnsec {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 34%;
+    height: 69%;
+}
+
+.midcon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+
+}
+.name{
+    margin-top: 69px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif ;
+}
+.price{
+    margin-top: 69px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif ;
+}
+.tube{
+    display: flex;
+    justify-content: center
+}
+.desc{
+    padding: 18px 18px;
+}
+.desc h4{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.desc p{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+}
+footer {
+    background-color: black;
+    color: blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

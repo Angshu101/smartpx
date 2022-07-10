@@ -1,0 +1,226 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    {% comment %} //<link rel="stylesheet" href="{% static 'css/phone.css' %}"> {% endcomment %}
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        body {
+            background-color: rgb(183, 120, 241);
+        }
+        
+        
+        
+        .navbar {
+            background-color: blueviolet;
+            height: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+        
+        nav {
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .icon {
+            display: none;
+        }
+        
+        .navbar nav ul {
+            display: flex;
+            width: 30%;
+            justify-content: space-evenly;
+        }
+        
+        .navbar nav ul li {
+            list-style: none;
+            margin: 15px 0;
+            padding: 0 20px;
+        }
+        
+        .navbar nav ul li a {
+            font-family: 'Nunito Sans', sans-serif;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .navbar nav ul li a:hover {
+            cursor: pointer;
+            color: white;
+        }
+        
+        .logo {
+            display: flex;
+            justify-content: center;
+            font-family: 'Ubuntu', sans-serif;
+            width: 20%;
+            align-items: center;
+            padding-right: 10%;
+        }
+        
+        .logo img{
+            width: 70px;
+            height: 63px;
+        }
+        .button {
+            display: flex;
+            justify-content: space-evenly;
+            width: 20%;
+            align-items: center;
+        }
+        
+        /* .btn a:hover {
+            background-color: blueviolet;
+            color: black;
+            cursor: pointer;
+        } */
+        
+        .btn {
+            background-color: black;
+            color: blueviolet;
+            border: 3px solid;
+            border-radius: 8px;
+            width: 33%;
+            height: 69%;
+            text-decoration: none;
+        }
+        .btn a{
+            color: blueviolet;
+        text-decoration: none;
+        }
+        .btnsec a{
+            color: blueviolet;
+        text-decoration: none;
+        }
+        
+        /* .btnsec a:hover {
+            background-color: blueviolet;
+            color: black;
+            cursor: pointer;
+        } */
+        
+        .btnsec {
+            background-color: black;
+            color: blueviolet;
+            border: 3px solid;
+            border-radius: 8px;
+            width: 34%;
+            height: 69%;
+        }
+        
+        .midcon{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 110px;
+        
+        }
+        .name{
+            margin-top: 69px;
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif ;
+        }
+        .price{
+            margin-top: 69px;
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif ;
+        }
+        .tube{
+            display: flex;
+            justify-content: center
+        }
+        .desc{
+            padding: 18px 18px;
+        }
+        .desc h4{
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .desc p{
+            font-size: 20px;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: lighter;
+        }
+        footer {
+            background-color: black;
+            color: blueviolet;
+            height: 12vh;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .flex-all-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <div class="navbar">
+        <nav>
+            <div class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <ul>
+                <li><a href="/" target="_blank">Home</a></li>
+                <li><a href="product" target="_blank">Products</a></li>
+                <li><a href="about" target="_blank">About</a></li>
+                <li><a href="contact" target="_blank">Contact</a></li>
+            </ul>
+            <div class="logo">
+                <img src="{% static 'assets/smartpx white.png' %}" alt="" width="20px" height="20px">
+                
+            </div>
+            <div class="button">
+                <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
+                <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+            </div>
+
+        </nav>
+    
+    </div>
+    <div class="midcon">
+        <div class="name">
+            <h4>{{phone_det.prod_name}}</h4>
+        </div>
+        <div class="price">
+            <h5>{{phone_det.price}}</h5>
+        </div>
+        <div class="pic">
+            <img src="{% static 'assets/phone1.png' %}" alt="" width="200px" height="200px">
+        </div>
+    </div>
+    <div class="tube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{phone_det.video_URL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="desc">
+        <h4>Description</h4>
+        <p>{{phone_det.description |safe}} </p>
+    </div>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; 2022 all rights reserved smartPx</p>
+    </footer>
+</body>
+
+</html>
