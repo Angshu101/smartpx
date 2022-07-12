@@ -32,8 +32,13 @@
                     
                 </div>
                 <div class="button">
-                    <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
-                    <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                    {% if user.is_authenticated %}
+                    <button type="button" class="btn"><a href="{% url 'dashboard' %}" target="_blank"> Profile</a></button>
+                    <button type="button" class="btnsec"><a href="{% url 'logout' %}" target="_blank"> logout</a></button>
+                    {% else %}
+                    <button type="button" class="btn"><a href="{% url 'login' %}" target="_blank"> Login</a></button>
+                    <button type="button" class="btnsec"><a href="{% url 'sign_up' %}" target="_blank"> Sign up</a></button>
+                    {% endif %}
                 </div>
 
             </nav>

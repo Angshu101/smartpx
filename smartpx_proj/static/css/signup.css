@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 720px) {
+    .block1>div:nth-child(1) {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+body {
+    background-color: rgb(231, 224, 224);
+}
+
+.navbar {
+    background-color: blueviolet;
+    height: 65px;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    /* display: none; */
+}
+
+.navbar nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+.navbar nav ul li a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 19%;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+
+/* .btn:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+.btn {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 33%;
+    height: 69%;
+}
+
+.btn a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.btnsec a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* .btnsec:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+} */
+.btnsec {
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 34%;
+    height: 69%;
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+    margin: 2px;
+
+}
+
+.img img {
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    box-shadow: 1px 1px 1px 1px #b3b5b8;
+}
+
+.logincon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon img {
+    width: 200px;
+    height: 200px;
+}
+
+.loginform {
+    width: 25%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #b3b5b8;
+}
+
+.loginform form div {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform form div input {
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.password h6 {
+    margin-left: 184px;
+    margin-top: 6px;
+}
+
+.form-label1 {
+    display: flex;
+    justify-content: end;
+}
+
+.password {
+    display: flex;
+    align-items: flex-end;
+}
+
+.acct {
+    background-color: #b576ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px solid b;
+    border-radius: 4px;
+}
+
+.in {
+    font-size: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: blueviolet;
+    height: 12vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

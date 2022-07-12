@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('webpages.urls')),
     path('phonex/',include('phonex.urls')),
+    path('accounts/',include('accounts.urls')),
 ]+ static(settings.MEDIA_URL,documentroot=settings.MEDIA_ROOT)

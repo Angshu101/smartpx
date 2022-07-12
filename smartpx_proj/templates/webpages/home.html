@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{% static 'css/home_style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="referrer" content="no-referrer-when-downgrade">
 </head>
 <body>
     <header>
@@ -32,8 +33,13 @@
                         
                     </div>
                     <div class="button">
-                        <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
-                        <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                        {% if user.is_authenticated %}
+                        <button type="button" class="btn"><a href="{% url 'dashboard' %}" target="_blank"> Profile</a></button>
+                        <button type="button" class="btnsec"><a href="{% url 'logout' %}" target="_blank"> logout</a></button>
+                        {% else %}
+                        <button type="button" class="btn"><a href="{% url 'login' %}" target="_blank"> Login</a></button>
+                        <button type="button" class="btnsec"><a href="{% url 'sign_up' %}" target="_blank"> Sign up</a></button>
+                        {% endif %}
                     </div>
         
                 </nav>
@@ -97,6 +103,19 @@
             }
         })
     </script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/62cd8458b0d10b6f3e7bf77d/1g7pcpvf0';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
     <footer class="flex-all-center">
         <p>Copyright &copy; 2022 all rights reserved smartPx</p>
     </footer>

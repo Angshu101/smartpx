@@ -1,0 +1,78 @@
+:root {
+	--primary: #34529a;
+	--secondary: #3a3e45;
+	--white: #888787;
+	--accent: #e56237;
+}
+
+body {
+	background-color: rgb(231, 224, 224);
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+h2,
+h3 {
+	color:rgb(231, 224, 224) ;
+}
+.btn-accent {
+	background-color: rgb(231, 224, 224);
+	color: #fff;
+	border-color: rgb(231, 224, 224);
+	outline: none;
+}
+.btn-accent:hover {
+	color: #fff;
+}
+
+button:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 0.5s;
+}
+
+.form-control[type='text'],
+[type='textarea'],
+[type='email'],
+[type='password'] {
+	padding: 20px 25px;
+	font-size: 19px;
+	border-radius: 8px;
+}
+textarea {
+	padding: 20px 25px;
+	font-size: 19px;
+	border-radius: 8px;
+}
+
+.card {
+	color: rgb(231, 224, 224);
+	width: 18rem;
+}
+
+main {
+	overflow: hidden;
+}
+
+.table {
+	color: #fff;
+}
+
+.page-item.disabled .page-link,
+.page-link {
+	background-color: rgb(231, 224, 224);
+	border: none;
+	padding: 10px 20px;
+	line-height: none;
+	color: #fff;
+	margin: 0 3px;
+	border-radius: 3px;
+}
+
+.page-link:hover {
+	background-color: rgb(231, 224, 224);
+
+	color:blue;
+}
