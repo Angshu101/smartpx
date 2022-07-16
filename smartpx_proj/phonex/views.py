@@ -1,8 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from webpages.models import Product
+from .models import Contact
 # Create your views here.
-def phonex(request):
-    pass
 def search(request):
     searc_ph=Product.objects.all()
     
@@ -14,3 +13,17 @@ def search(request):
         'searc_ph':searc_ph,
     }
     return render(request,'phonex/search.html',data)
+
+
+def contct(request):
+    if request.method =='POST':
+        customer_name=request.POST['customer_name']
+        email=request.POST['email']
+        phone=request.POST['phone']
+        enquiry=request.POST['enquiry']
+        
+        
+        contact_phonex=Contact(customer_name=customer_name,email=email,phone=phone,enquiry=enquiry)
+        contact_phonex.save()
+        
+    return redirect('home')

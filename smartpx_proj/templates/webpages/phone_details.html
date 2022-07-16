@@ -25,6 +25,18 @@
         }
         
         
+        .button1 {
+            border: none;
+            background-color:#000000;
+            color: #FFFFFF;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
         
         .navbar {
             background-color: blueviolet;
@@ -193,8 +205,13 @@
                 
             </div>
             <div class="button">
-                <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
-                <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                {% if user.is_authenticated %}
+                <button type="button" class="btn"><a href="{% url 'dashboard' %}" target="_blank"> Profile</a></button>
+                <button type="button" class="btnsec"><a href="{% url 'logout' %}" target="_blank"> logout</a></button>
+                {% else %}
+                <button type="button" class="btn"><a href="{% url 'login' %}" target="_blank"> Login</a></button>
+                <button type="button" class="btnsec"><a href="{% url 'sign_up' %}" target="_blank"> Sign up</a></button>
+                {% endif %}
             </div>
 
         </nav>
@@ -210,10 +227,12 @@
         <div class="pic">
             <img src="{% static 'assets/phone1.png' %}" alt="" width="200px" height="200px">
         </div>
+        
     </div>
     <div class="tube">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/{{phone_det.video_URL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <button type="button" class="button1"><a href="{% url 'orders' %}" target="_blank">Buy</button>
     <div class="desc">
         <h4>Description</h4>
         <p>{{phone_det.description |safe}} </p>

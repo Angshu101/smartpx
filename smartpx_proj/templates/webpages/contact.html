@@ -27,8 +27,13 @@
                     
                 </div>
                 <div class="button">
-                    <button type="button" class="btn"><a href="login.html" target="_blank"> Login</a></button>
-                    <button type="button" class="btnsec"><a href="signup.html" target="_blank"> Sign up</a></button>
+                    {% if user.is_authenticated %}
+                    <button type="button" class="btn"><a href="{% url 'dashboard' %}" target="_blank"> Profile</a></button>
+                    <button type="button" class="btnsec"><a href="{% url 'logout' %}" target="_blank"> logout</a></button>
+                    {% else %}
+                    <button type="button" class="btn"><a href="{% url 'login' %}" target="_blank"> Login</a></button>
+                    <button type="button" class="btnsec"><a href="{% url 'sign_up' %}" target="_blank"> Sign up</a></button>
+                    {% endif %}
                 </div>
 
             </nav>
@@ -39,34 +44,28 @@
     <main>
         <div class="contactform">
             <h1>Contact us for General Queries</h1>
-            <form>
+            <form method="POST" action={% url 'contct' %}>
+                {% csrf_token %}
                 <div class="query">
                     <label for="clientname" class="form-label">Name</label>
-                    <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp">
+                    <input name="customer_name" class="form-control" placeholder="customer_name">
                     <div id="emailHelp" class="form-text">
                     </div>
                 </div>
                 <div class="query">
                     <label for="clientemail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="clientemail">
+                    <input name="email" type="email" class="form-control" placeholder="email">
                     <div id="emailHelp" class="form-text">We'll never share your email & phone no with anyone
                         else.
                     </div>
                 </div>
                 <div class="query">
                     <label for="clientphone" class="form-label">Phone</label>
-                    <input type="phone" class="form-control" id="clientphone">
+                    <input name="phone" class="form-control" placeholder="phone">
                 </div>
-                <div class="query">
-                    <label for="clientname" class="form-label">Enquiry</label>
-                    <input type="enquiry" class="form-control" id="clientname">
-                    <div id="emailHelp" class="form-text">
-                    </div>
-                </div>
-                <div class="query" id="form-check">
-                    <input type="checkbox" class="form-check-input" id="isclient">
-                    <label class="form-check-label" for="isclient">Wanna work with me in some project</label>
-                </div>
+                <div class="form-group pt-2">
+                    <textarea name="enquiry" class="form-control" rows="3" placeholder="enquiry"></textarea>
+                  </div>
                 <button type="submit" class="btn-sm">Submit</button>
             </form>
         </div>

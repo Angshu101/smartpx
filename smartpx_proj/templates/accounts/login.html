@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<style>
+    .btn1 {
+        border: none;
+        background-color:#8a2be2;
+        color: #FFFFFF;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    
+</style>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+<div class="icon">
+<span></span>
+<span></span>
+<span></span>
+</div>
+                <ul>
+                    <li><a href="/" target="_blank">Home</a></li>
+                    <li><a href="product" target="_blank">Products</a></li>
+                    <li><a href="about" target="_blank">About</a></li>
+                    <li><a href="contact" target="_blank">Contact</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="{% static 'assets/smartpx white.png' %}" alt="" width="70px" height="63px">
+                    
+                </div>
+                <div class="button">
+                    <button type="button" class="btnsec"><a href="{% url 'sign_up' %}" target="_blank"> Sign up</a></button>
+                </div>
+
+            </nav>
+        </div>
+
+    </header>
+    <div class="logincon">
+    <div class="img">
+        <img src="{% static 'assets/login-image.png' %}" alt="">
+    </div>
+    <div class="loginform">
+        <div class="icon">
+            <img src="{% static 'assets/smartpx blueviolet.png' %}" alt="">
+        </div>
+        
+        <form method="POST" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="query">
+                <label for="clientname" class="form-label1">Username</label>
+                <input name="username" class="form-control" id="clientname" aria-describedby="emailHelp" placeholder="username">
+                <div id="emailHelp" class="form-text">
+                </div>
+            </div>
+            <div class="query">
+                <div class="password">
+                <label for="clientname" class="form-label">Password</label>
+                <input name="password" type="password"class="form-control" aria-describedby="emailHelp" placeholder="password">
+                <div id="emailHelp" class="form-text">
+                </div>
+            </div>
+
+            <button type="submit" class="btn1">
+                Login</button>
+        </form>
+    </div>
+</div>
+</body>
+<!-- <footer class="flex-all-center">
+    <p>Copyright &copy; 2022 all rights reserved smartPx</p>
+</footer> -->
+</html>

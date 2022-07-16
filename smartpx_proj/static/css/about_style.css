@@ -178,7 +178,7 @@ text-decoration: none;
     font-size: 6em;
 }
 .block1{
-    height: 540px;
+    height: 300px;
     width: 100vw;
     display: flex;
     padding-top: 3%;
@@ -369,3 +369,4 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
