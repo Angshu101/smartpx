@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'orders.apps.OrdersConfig',
     'accounts.apps.AccountsConfig',
     'phonex.apps.PhonexConfig',
     'webpages.apps.WebpagesConfig',
@@ -134,5 +135,7 @@ STATICFILES_DIRS =[
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
- 
+
+# STRIPE_SECRET_KEY='sk_test_51LLXnxSALrNeDNxJMMyxUoga9oT6O8MCVnLFHHpPsRxDzszVkhhBPR8fir90z0sbt0uyCfvDj7FZhylJLtWvL9yd00rk7R561G'
+# STRIPE_PUBLISHABLE_KEY='pk_test_51LLXnxSALrNeDNxJTWdGKKLrVdwpZYkxDgsu116sSvLIvNncXGHYPcmvqzXV2rQI3NqTJy5TRV2hLubjxDCWHeAt00AVLXXWcc'
 
