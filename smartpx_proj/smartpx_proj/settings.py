@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'orders.apps.OrdersConfig',
     'accounts.apps.AccountsConfig',
     'phonex.apps.PhonexConfig',
     'webpages.apps.WebpagesConfig',

@@ -23,5 +23,4 @@ urlpatterns = [
     path('',include('webpages.urls')),
     path('phonex/',include('phonex.urls')),
     path('accounts/',include('accounts.urls')),
-    path('orders/',include('orders.urls')),
 ]+ static(settings.MEDIA_URL,documentroot=settings.MEDIA_ROOT)
