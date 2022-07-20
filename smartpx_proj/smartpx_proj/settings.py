@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'order.apps.OrderConfig',
     'accounts.apps.AccountsConfig',
     'phonex.apps.PhonexConfig',
     'webpages.apps.WebpagesConfig',
@@ -135,6 +136,7 @@ STATICFILES_DIRS =[
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# STRIPE_SECRET_KEY='sk_test_51LLXnxSALrNeDNxJMMyxUoga9oT6O8MCVnLFHHpPsRxDzszVkhhBPR8fir90z0sbt0uyCfvDj7FZhylJLtWvL9yd00rk7R561G'
-# STRIPE_PUBLISHABLE_KEY='pk_test_51LLXnxSALrNeDNxJTWdGKKLrVdwpZYkxDgsu116sSvLIvNncXGHYPcmvqzXV2rQI3NqTJy5TRV2hLubjxDCWHeAt00AVLXXWcc'
+STRIPE_PUBLIC_KEY = "pk_live_51LLXnxSALrNeDNxJwJix4VymlzGkTBj7FMo8aX8PbDCakTCGZbiiwfwJYETw6EQAVh38SkdxdxWxuDG7qfQ98qEr001gnRFOOu"
+STRIPE_SECRET_KEY = "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"
+STRIPE_WEBHOOK_SECRET = ""
 
