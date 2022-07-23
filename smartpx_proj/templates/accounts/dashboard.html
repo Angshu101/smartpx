@@ -41,10 +41,10 @@
         <nav>
 
             <ul>
-                <li><a href="/" target="_blank">Home</a></li>
-                <li><a href="product" target="_blank">Products</a></li>
-                <li><a href="about" target="_blank">About</a></li>
-                <li><a href="contact" target="_blank">Contact</a></li>
+                <li><a href="{% url 'home' %}" target="_blank">Home</a></li>
+                <li><a href="{% url 'product' %}" target="_blank">Products</a></li>
+                <li><a href="{% url 'about' %}" target="_blank">About</a></li>
+                <li><a href="{% url 'contact' %}" target="_blank">Contact</a></li>
             </ul>
             <div class="logo">
                 <img src="{% static 'assets/smartpx white.png' %}" alt="" width="70px" height="63px">
