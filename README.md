@@ -21,7 +21,7 @@ The technology stack used in this project are: -
 Basic requirement for running this project is:
 1. Latest python 3.0 is required to be installed
 2. Pip should also be installed in the local pc
-3. You are required to present in the SMARTPX
+3. You are required to present in the SMARTPX Directory
 4. Virtual environment should be activated using the command “venv\Scripts\activate”.
 5. All the dependencies are required to be installed from requirments.txt file by running the command “pip install -r requirments.txt”
 6. Then change the directory to smartpx_proj, then run the command “python manage.py runserver”.
