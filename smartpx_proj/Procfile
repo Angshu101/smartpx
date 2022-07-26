@@ -1,1 +1,1 @@
-web: gunicorn smartpx_proj.wsgi
+web: gunicorn smartpx_proj.wsgi --log-file -
