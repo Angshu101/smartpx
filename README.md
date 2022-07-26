@@ -1,11 +1,11 @@
-# NEWUI_PROJECT
+# Theme: Mobile selling
 <P align="left"> This website where we can browse different types of phones, the feature of this websites is: -
-1. The best-selling phones and the latest phones launched can be sorted to the top.
-2. The website is admin controlled. 
-3. Each product has its unique descriptions that can be manipulated by the admin.
-4. Search feature is added you can search your favourite phone by jumping to the product page
-5. Contact page is also active
-6. Once the admin logs out of his/her account the page will be redirected to the dashboard page. 
+1. The best-selling phones and the latest phones launched can be sorted to the top.<br>
+2. The website is admin controlled. <br>
+3. Each product has its unique descriptions that can be manipulated by the admin.<br>
+4. Search feature is added you can search your favourite phone by jumping to the product page.<br>
+5. Contact page is also active. <br>
+6. Once the admin logs out of his/her account the page will be redirected to the dashboard page. <br>
 
 The details of the website in written below:
 The technology stack used in this project are: -
