@@ -24,7 +24,7 @@ Basic requirement for running this project is:
 3. You are required to present in the SMARTPX
 4. Virtual environment should be activated using the command “venv\Scripts\activate”.
 5. All the dependencies are required to be installed from requirments.txt file by running the command “pip install -r requirments.txt”
-6. Then change the directory to smartpx_proj, then run the command “python manage.py run server”.
+6. Then change the directory to smartpx_proj, then run the command “python manage.py runserver”.
 7. If the project is running on the local host, then use localhost\admin\ to access the admin page.
 8. The default password and username to access the admin is username: smart_px, password: manishangshu. You can also create new super user by running the command “python manage.py createsuperuser”.
 9. If you are willing to go to admin page use the website link/admin/
