@@ -27,6 +27,7 @@ Basic requirement for running this project is:
 6. Then change the directory to smartpx_proj, then run the command “python manage.py run server”.
 7. If the project is running on the local host, then use localhost\admin\ to access the admin page.
 8. The default password and username to access the admin is username: smart_px, password: manishangshu. You can also create new super user by running the command “python manage.py createsuperuser”.
+9. If you are willing to go to admin page use the website link/admin/
  
 </P>
 <h1><a href="https://tinyurl.com/smartpx">Website Link</a></h1>
