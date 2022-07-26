@@ -29,14 +29,22 @@ Basic requirement for running this project is:
 8. The default password and username to access the admin is username: smart_px, password: manishangshu. You can also create new super user by running the command “python manage.py createsuperuser”.
  
 </P>
+<h1><a href="https://tinyurl.com/smartpx">Website Link</a></h1>
 
-<h1>homw</h1>
+<h1>home</h1>
 ![Screenshot (1113)](https://user-images.githubusercontent.com/36377710/181085955-821fa87d-e2cb-499c-8c5a-a96124578f9b.png)
 <h1>Product</h1>
+![Screenshot (1115)](https://user-images.githubusercontent.com/36377710/181087097-2ffc00cf-4aad-4a49-8723-9c15cd7084c1.png)
+![Screenshot (1117)](https://user-images.githubusercontent.com/36377710/181087164-1385f2fc-c762-409c-8856-74feb4257729.png)
 <h1>Product details<h1>
 <h1>orders<h1>
+ ![Screenshot (1124)](https://user-images.githubusercontent.com/36377710/181087511-fddf1f9c-b6da-43fe-8f78-9161793821be.png)
+
 <h1>search</h1>
+![Screenshot (1118)](https://user-images.githubusercontent.com/36377710/181087219-4c80b362-f819-4c07-a474-4e3dd01306e1.png)
 <h1>Admin</h1>
+![Screenshot (1121)](https://user-images.githubusercontent.com/36377710/181087435-d2f5fca1-d57c-4abd-b7af-b33c230c001c.png)
+
 <h1>Contact</h1>
 <h1>About US</h1>
 <h1>login</h1>
