@@ -1,5 +1,5 @@
 # Theme: Mobile selling
-<P align="left"> This website where we can browse different types of phones, the feature of this websites is: -
+<P align="left"> This website where we can browse different types of phones, the feature of this websites is: -<br>
 1. The best-selling phones and the latest phones launched can be sorted to the top.<br>
 2. The website is admin controlled. <br>
 3. Each product has its unique descriptions that can be manipulated by the admin.<br>
@@ -29,3 +29,5 @@ Basic requirement for running this project is:
 8. The default password and username to access the admin is username: smart_px, password: manishangshu. You can also create new super user by running the command “python manage.py createsuperuser”.
  
 </P>
+
+<h3>Screenshot</h3>
