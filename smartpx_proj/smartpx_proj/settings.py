@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import django_heroku
 from pathlib import Path
 import os
 
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0&@s!do_@(pd%hrh1qfik&t=x=z)!c&-3qb3c9=x)67_jb!o3#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -136,7 +136,4 @@ STATICFILES_DIRS =[
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STRIPE_PUBLIC_KEY = "pk_live_51LLXnxSALrNeDNxJwJix4VymlzGkTBj7FMo8aX8PbDCakTCGZbiiwfwJYETw6EQAVh38SkdxdxWxuDG7qfQ98qEr001gnRFOOu"
-STRIPE_SECRET_KEY = "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"
-STRIPE_WEBHOOK_SECRET = ""
-
+django_heroku.settings(locals())
