@@ -30,8 +30,18 @@ Basic requirement for running this project is:
  
 </P>
 
-<h1>Screenshot</h1>
+<h1>homw</h1>
 ![Screenshot (1113)](https://user-images.githubusercontent.com/36377710/181085955-821fa87d-e2cb-499c-8c5a-a96124578f9b.png)
+<h1>Product</h1>
+<h1>Product details<h1>
+<h1>orders<h1>
+<h1>search</h1>
+<h1>Admin</h1>
+<h1>Contact</h1>
+<h1>About US</h1>
+<h1>login</h1>
+<h1>signup</h1>
+<h1>dashboard</h1>
 
 
 
