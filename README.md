@@ -36,20 +36,28 @@ Basic requirement for running this project is:
 <h1>Product</h1>
 ![Screenshot (1115)](https://user-images.githubusercontent.com/36377710/181087097-2ffc00cf-4aad-4a49-8723-9c15cd7084c1.png)
 ![Screenshot (1117)](https://user-images.githubusercontent.com/36377710/181087164-1385f2fc-c762-409c-8856-74feb4257729.png)
-<h1>Product details<h1>
-<h1>orders<h1>
+<h1>Product details</h1>
+<h1>orders</h1>
  ![Screenshot (1124)](https://user-images.githubusercontent.com/36377710/181087511-fddf1f9c-b6da-43fe-8f78-9161793821be.png)
-
 <h1>search</h1>
 ![Screenshot (1118)](https://user-images.githubusercontent.com/36377710/181087219-4c80b362-f819-4c07-a474-4e3dd01306e1.png)
 <h1>Admin</h1>
 ![Screenshot (1121)](https://user-images.githubusercontent.com/36377710/181087435-d2f5fca1-d57c-4abd-b7af-b33c230c001c.png)
-
 <h1>Contact</h1>
+![Screenshot (1128)](https://user-images.githubusercontent.com/36377710/181088276-fce94e3e-a600-4fac-8f92-4ebe9adc99cf.png)
+
 <h1>About US</h1>
+![Screenshot (1120)](https://user-images.githubusercontent.com/36377710/181088338-2f4be61e-69c6-4f30-b5b4-bc2c3869411e.png)
+
 <h1>login</h1>
+![Screenshot (1129)](https://user-images.githubusercontent.com/36377710/181088590-b4ce3e76-dedb-4a5d-adab-005fe307270b.png)
+
 <h1>signup</h1>
+![Screenshot (1126)](https://user-images.githubusercontent.com/36377710/181088507-88321f79-afcd-4125-92cd-45a6e8333be0.png)
+
 <h1>dashboard</h1>
+![Screenshot (1127)](https://user-images.githubusercontent.com/36377710/181088659-71076c8a-9936-4914-86d6-770220b88f40.png)
+
 
 
 
