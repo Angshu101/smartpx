@@ -12,9 +12,6 @@ django-ckeditor = "*"
 django-allauth = "*"
 razorpay = "*"
 stripe = "*"
-gunicorn = "*"
-django-heroku = "*"
-whitenoise = "*"
 
 [dev-packages]
 
